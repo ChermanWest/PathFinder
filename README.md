@@ -2,6 +2,7 @@ PathFinder es un sistema inteligente y portable de asistencia a la navegación p
 
 //placeholder//
 
+```text
 PathFinder/
 ├── docs/                      # Documentación del proyecto
 │   ├── diagramas/             # Diagramas de casos de uso, secuencias, etc.
@@ -14,18 +15,17 @@ PathFinder/
 │   ├── esp32_obstacle_alert/  # Módulo B: Capa reactiva local
 │   │   ├── src/               # Código principal en C++/Arduino
 │   │   ├── lib/               # Librerías para ToF VL53L1X, MPU-6050 y motores
-│   │   └── platformio.ini     # (Opcional) Archivo de configuración si usan PlatformIO
+│   │   └── platformio.ini     # (Opcional) Archivo de configuración PlatformIO
 │   ├── rpi_voice_nav/         # Módulo A: Capa de comprensión y navegación
-│   │   ├── src/               # Scripts principales (probablemente en Python)
-│   │   ├── config/            # Archivos de configuración (claves de API Gemini, etc.)
+│   │   ├── src/               # Scripts principales (Python)
+│   │   ├── config/            # Archivos de configuración (API Keys, etc.)
 │   │   └── requirements.txt   # Dependencias de software para Raspberry Pi OS
-│   └── shared/                # (Opcional) Protocolos de comunicación entre RPi y ESP32
+│   └── shared/                # (Opcional) Protocolos de comunicación RPi-ESP32
 ├── unity_mockup/              # Maqueta virtual del entorno urbano
 │   ├── Assets/                # Modelos, scripts en C# y escenas de Unity
 │   └── ProjectSettings/       # Configuración para Meta Quest 3
 ├── .gitignore                 # Exclusiones de archivos compilados y credenciales
 └── README.md                  # Página principal del repositorio
-
 (seciones que despues debe tener el readmi
 
 Descripción General: Un resumen del propósito del proyecto y cómo actúa como complemento al bastón blanco.
