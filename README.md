@@ -26,7 +26,9 @@ PathFinder/
 │   └── ProjectSettings/       # Configuración para Meta Quest 3
 ├── .gitignore                 # Exclusiones de archivos compilados y credenciales
 └── README.md                  # Página principal del repositorio
-(seciones que despues debe tener el readmi
+
+
+(seciones que despues debe tener el readme)
 
 Descripción General: Un resumen del propósito del proyecto y cómo actúa como complemento al bastón blanco.
 
